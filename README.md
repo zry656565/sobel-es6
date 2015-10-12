@@ -14,7 +14,7 @@ or just include the JS file: `build/sobel.js`
 
 # Usage
 
-```
+```javascript
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d'),
     image = new Image()
