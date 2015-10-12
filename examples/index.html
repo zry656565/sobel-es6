@@ -20,8 +20,8 @@
             h = canvas.height = image.height
 
         ctx.drawImage(image, 0, 0)
-        var sobel = new Sobel(ctx.getImageData(0, 0, w, h))
-        sobel.renderResult(canvas)
+        var result = sobel(ctx.getImageData(0, 0, w, h))
+        ctx.putImageData(result.imageData(), 0, 0)
     }
 </script>
 
