@@ -1,11 +1,11 @@
 {
   "name": "sobel-es6",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "realize sobel in ES6",
   "main": "build/sobel.js",
   "scripts": {
-    "build": "babel sobel.js -o build/sobel.js",
-    "start": "babel sobel.js -w -o build/sobel.js",
+    "build": "babel src -d build",
+    "start": "babel src -w -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
