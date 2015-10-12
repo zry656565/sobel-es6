@@ -4,6 +4,8 @@
   "description": "realize sobel in ES6",
   "main": "sobel.js",
   "scripts": {
+    "build": "babel sobel.js -o build/sobel.js",
+    "start": "babel sobel.js -w -o build/sobel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zry656565/sobel-es6/issues"
   },
-  "homepage": "https://github.com/zry656565/sobel-es6#readme"
+  "homepage": "https://github.com/zry656565/sobel-es6#readme",
+  "devDependencies": {
+    "babel": "^5.8.3"
+  }
 }

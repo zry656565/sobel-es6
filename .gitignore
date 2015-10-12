@@ -1,2 +1,6 @@
 # PhpStorm / WebStorm Configuration
 .idea
+
+# npm
+node_modules
+npm-debug.log
