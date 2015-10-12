@@ -1,8 +1,8 @@
 {
   "name": "sobel-es6",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "realize sobel in ES6",
-  "main": "sobel.js",
+  "main": "build/sobel.js",
   "scripts": {
     "build": "babel sobel.js -o build/sobel.js",
     "start": "babel sobel.js -w -o build/sobel.js",
