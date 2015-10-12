@@ -1,0 +1,23 @@
+{
+  "name": "sobel-es6",
+  "version": "0.0.1",
+  "description": "realize sobel in ES6",
+  "main": "sobel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zry656565/sobel-es6.git"
+  },
+  "keywords": [
+    "sobel",
+    "edge detection"
+  ],
+  "author": "Jerry Zou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zry656565/sobel-es6/issues"
+  },
+  "homepage": "https://github.com/zry656565/sobel-es6#readme"
+}
