@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobel-ES6 Demo</title>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<script src="../build/sobel.js"></script>
+<script>
+    var canvas = document.getElementById('canvas'),
+        ctx = canvas.getContext('2d'),
+        image = new Image()
+
+    image.src = "../images/cherry.png"
+    image.onload = function() {
+        var w = canvas.width = image.width,
+            h = canvas.height = image.height
+
+        ctx.drawImage(image, 0, 0)
+        var sobel = new Sobel(ctx.getImageData(0, 0, w, h))
+        sobel.renderResult(canvas)
+    }
+</script>
+
+</body>
+</html>
