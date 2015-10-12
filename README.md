@@ -1,6 +1,6 @@
 # sobel-es6
 
-Sobel Algorithm in ES6. [DEMO](./examples/index.html)
+Sobel Algorithm in ES6. [DEMO](http://zry656565.github.io/sobel-es6/examples/)
 
 [![NPM](https://nodei.co/npm/sobel-es6.png)](https://nodei.co/npm/sobel-es6)
 
